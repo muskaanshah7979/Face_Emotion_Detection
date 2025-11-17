@@ -11,19 +11,6 @@ It provides a simple Flask web interface where users can upload an image, and th
 - Simple Web UI: Flask renders a clean interface for uploads and results.  
 - CSV Logging (optional): Standalone script logs emotions with timestamps for later analysis.  
 
-## Project Structure
-
-FaceEmotionApp/
-│
-├── app.py                 # Flask app (upload + emotion analysis)
-├── realtime_emotion.py    # Standalone script (webcam + CSV logging)
-├── requirements.txt       # Dependencies
-├── emotion_log.csv        # Auto‑created by realtime script
-├── templates/
-│   └── index.html         # Upload form
-└── static/
-    └── uploads/           # Uploaded images saved here
-
 ## Setup & Installation
 
 1. Clone or download this repository
